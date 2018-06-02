@@ -1,8 +1,8 @@
 SSH 相关配置
 ==============
 
-[Adding your SSH key to the ssh-agent](#1)
-------------------------------------------
+<span id="add-to-ssh-agent">Adding your SSH key to the ssh-agent</span>
+----------------------------------------------------------------------
 
 Before adding a new SSH key to the ssh-agent to mange your keys, you should have
 checked for existing SSH keys and generated a new SSH key.
@@ -26,7 +26,7 @@ FAQ
 
 触发条件：在服务器添加完公钥后，执行 `ssh` 命令登录服务时，报该错误
 
-解决方案：[Adding your SSH key to the ssh-agent][#1]
+解决方案：[Adding your SSH key to the ssh-agent](#add-to-ssh-agent)
 
 执行如下命令:
 ```bash
